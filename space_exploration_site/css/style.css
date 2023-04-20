@@ -1,0 +1,49 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main .first-section {
+    background-image: url("../images/giphy.gif");
+    height: 600px;
+    color: 0f151e;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+main #space-logo {
+   width: 200px;
+}
+
+main .first-section h1 {
+    margin: 0;
+    text-shadow: 0 0 4 white;
+}
+
+main .first-section .btn  {
+    padding: 6px 12px;
+    background: #e4e3f6;
+    border: none;
+    font-family: inherit;
+    margin-top: 15px;
+    color: #0f151e;
+    font-weight: 800;
+}
+
+#underline {
+    border-bottom: 2px solid white;
+}
+
+main .second-section {
+    text-align: center;
+    color:#0f151e;
+    font-family: 'Orbitron', sans-serif;
+}
